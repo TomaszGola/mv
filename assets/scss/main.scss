@@ -4,6 +4,10 @@ body {
   font-family: $font;
 }
 
+.container-fluid {
+  padding: 0;
+}
+
 .title--h1, .title--h2 {
   max-width: 500px;
   text-align: center;
@@ -49,5 +53,36 @@ body {
     font-weight: bold;
     color: $button-color;
 
+  }
+}
+
+
+.shape--1 {
+  width: 250px;
+  height: 0;
+  border-right: 100px solid transparent;
+  border-top: 300px solid rgb(239, 239, 239);
+  position: absolute;
+}
+
+.shape--2 {
+  width: 100px;
+  height: 0;
+  border-right: 150px solid transparent;
+  border-top: 65px solid rgb(239, 239, 239);
+  position: absolute;
+  top:300px;
+}
+
+.shape--3 {
+  width: 300px;
+  position: absolute;
+}
+
+.shape--4 {
+  position: absolute;
+
+  img {
+    width: 300px;
   }
 }
