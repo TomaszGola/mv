@@ -96,6 +96,16 @@ footer {
   padding: 50px 0 100px;
   font-size: 14px;
 
+  .footer--logo-images {
+    width: 150px;
+    padding: 30px 0;
+  }
+
+  .footer--social-images {
+    width: 50px;
+    padding: 10px 0;
+  }
+
   p, h4, h5, a {
     color: #fff;
     padding:4px;
@@ -118,7 +128,6 @@ footer {
     display: block;
     color: $button-color;
     font-weight: bold;
-
   }
 
   .footer--sales-image {
