@@ -5,7 +5,7 @@ body {
 }
 
 .title--h1, .title--h2 {
-  width: 500px;
+  max-width: 500px;
   text-align: center;
   margin: 0 auto;
 }
@@ -24,7 +24,7 @@ body {
 
 .title--c2a {
   font-weight: bold;
-  width: 300px;
+  max-width: 300px;
   background-color: $button-color;
   color: #fff;
   text-align: center;
@@ -33,3 +33,21 @@ body {
   margin: 0 auto;
 }
 
+.title--callUsButton {
+  float: right;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  width: 250px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+  border: solid 1px rgb(233, 234, 235);
+  border-radius: 5px;
+  padding: 10px 0;
+  margin: 20px;
+
+  a {
+    font-weight: bold;
+    color: $button-color;
+
+  }
+}
