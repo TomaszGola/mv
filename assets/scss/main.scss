@@ -87,8 +87,8 @@ body {
   }
 }
 
-section {
-  height: 1000px;
+.section--white-space {
+  height: 500px;
 }
 
 footer {
@@ -125,9 +125,22 @@ footer {
   }
 
   a[data-type="mail"] {
-    display: block;
+    display: inline-block;
     color: $button-color;
     font-weight: bold;
+    background:
+      linear-gradient(
+        to bottom, #fff 0%, #fff 100%
+      );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 1px ;
+    text-decoration: none;
+    transition: background-size .5s;
+  }
+
+  a[data-type="mail"]:hover {
+    background-size: 4px 50px;
   }
 
   .footer--sales-image {
