@@ -19,6 +19,10 @@ body {
   font-weight: bold;
   letter-spacing: 2px;
   padding: 100px 0 30px;
+
+  h1{
+    background-color: rgba(255,255,255,0.5);
+  }
 }
 
 .title--h2 {
@@ -48,6 +52,7 @@ body {
   border-radius: 5px;
   padding: 10px 0;
   margin: 20px;
+  background-color: #fff;
 
   a {
     font-weight: bold;
