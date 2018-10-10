@@ -87,6 +87,22 @@ body {
   }
 }
 
+.get-in-touch {
+  position: fixed;
+  right: -58px;
+  transform: rotate(-90deg);
+  display: block;
+  width: 150px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  background-color: rgb(134, 192, 19);
+  -webkit-clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+  clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+
+}
+
 .section--white-space {
   height: 500px;
 }
